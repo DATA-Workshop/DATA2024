@@ -383,7 +383,6 @@ button:focus,
 .jumbotron .content h1 {
     color       : #ffffff;
     font-weight : bold;
-    font-size   : 56px;
     }
 
 .jumbotron .content p.lead {
@@ -415,6 +414,16 @@ button:focus,
         }
     }
 
+.jumbotron .content .event-title1 {
+    font-size: 46px; /* Adjust the size as needed */
+    font-weight: 300; /* Keep the bold weight, you can adjust if needed */
+    line-height: 1em; /* Adjust the line height if necessary */
+}
+.jumbotron .content .event-title2 {
+    font-size: 58px; /* Adjust the size as needed */
+    font-weight: 700; /* Keep the bold weight, you can adjust if needed */
+    line-height: 1.2em; /* Adjust the line height if necessary */
+}
 /*---------------------------
  * Section Wrapper
  *---------------------------*/
