@@ -415,15 +415,62 @@ button:focus,
     }
 
 .jumbotron .content .event-title1 {
-    font-size: 46px; /* Adjust the size as needed */
-    font-weight: 300; /* Keep the bold weight, you can adjust if needed */
-    line-height: 1em; /* Adjust the line height if necessary */
+    font-size: 46px;
+    font-weight: 300; 
+    line-height: 1em;
 }
 .jumbotron .content .event-title2 {
-    font-size: 58px; /* Adjust the size as needed */
-    font-weight: 700; /* Keep the bold weight, you can adjust if needed */
-    line-height: 1.2em; /* Adjust the line height if necessary */
+    font-size: 58px; 
+    font-weight: 700; 
+    line-height: 1.2em; 
 }
+
+/* Styles for tablets and smaller screens */
+@media (max-width: 768px) {
+    .jumbotron {
+        height                : 140vh;
+        min-height            : 400px;
+    }
+    .jumbotron .content {
+        color             : #ffffff;
+        position          : absolute;
+        top               : 40%;
+        left              : 0;
+        right             : 0;
+        height            : 50%;
+        width             : 100%;
+        margin            : 0 auto;
+        padding           : 0 10%;
+        transform         : translateY(-50%);
+        -webkit-transform : translateY(-50%);
+        -moz-transform    : translateY(-50%);
+        }
+    .jumbotron .content .event-title1 {
+        font-size: 36px;
+        font-weight: 300;
+        line-height: 1em;
+    }
+
+    .jumbotron .content .event-title2 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1.2em;
+    }
+}
+@media (max-width: 480px) {
+    .jumbotron .content .event-title1 {
+        font-size: 28px;
+        font-weight: 300;
+        line-height: 1em;
+    }
+
+    .jumbotron .content .event-title2 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.2em;
+    }
+}
+
 /*---------------------------
  * Section Wrapper
  *---------------------------*/
