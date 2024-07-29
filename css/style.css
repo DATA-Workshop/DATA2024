@@ -434,7 +434,7 @@ button:focus,
     .jumbotron .content {
         color             : #ffffff;
         position          : absolute;
-        top               : 40%;
+        top               : 50%;
         left              : 0;
         right             : 0;
         height            : 50%;
@@ -457,7 +457,7 @@ button:focus,
         line-height: 1.2em;
     }
 }
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .jumbotron .content .event-title1 {
         font-size: 28px;
         font-weight: 300;
@@ -469,7 +469,7 @@ button:focus,
         font-weight: 700;
         line-height: 1.2em;
     }
-}
+} */
 
 /*---------------------------
  * Section Wrapper
